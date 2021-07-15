@@ -8,7 +8,7 @@ public class WeatherData extends Observable {
 	
 	public WeatherData() { }
 	
-	//Defini/valida as mudanças nas medidas notificando os observers
+	//Defini/valida as mudanças nas medidas notificando os observers com as alterações
 	public void measurementsChanged() {
 		setChanged();
 		notifyObservers();

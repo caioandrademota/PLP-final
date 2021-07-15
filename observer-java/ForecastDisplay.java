@@ -8,7 +8,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 	//Ultima pressão
 	private float lastPressure;
 
-	//Adiciona o observer a lista
+	//Registra o observer
 	public ForecastDisplay(Observable observable) {
 		observable.addObserver(this);
 	}

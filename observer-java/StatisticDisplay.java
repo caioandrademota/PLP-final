@@ -8,7 +8,7 @@ public class StatisticsDisplay implements Observer, DisplayElement {
 	private float tempSum= 0.0f;
 	private int numReadings;
 
-	//Adiciono o observer, objeto a lista
+	//Registra o observer
 	public StatisticsDisplay(Observable observable) {
 		observable.addObserver(this);
 	}

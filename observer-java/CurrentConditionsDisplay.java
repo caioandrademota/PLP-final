@@ -6,7 +6,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;
 	private float humidity;
 	
-	//Recebe o observer e o adiciona ao array
+	//Recebe o observer e o registra
 	public CurrentConditionsDisplay(Observable observable) {
 		this.observable = observable;
 		observable.addObserver(this);
